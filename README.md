@@ -6,13 +6,31 @@ ruby code/caesarCipher.rb "$(cat cipherTextOne.txt)" | grep "humpt"
 
 
 # This project has the Following tasks:
-# DONE: Study your selected cryptosystem
-# TODO: Write software to implement the system
-# TODO: Write software to implement the attack on the system
-# TODO: Estimate the work factor for your attack
-# TODO: Conduct computational experiments to verify your analysis
-# TODO: Ideally, you will provide a complete solution for your selected challenge problem
-# TODO: Write a report that includes a detailed description and analysis of your work and results
+## TODO: Study your selected cryptosystem
+We should get a few paragraph on the history of the Caesar Cipher
+
+## TODO: Write software to implement the system
+We need a way to encrypt the system using Caesar Cipher. This will involve you basically writing an algorithm that shifts the number of rows.
+
+## TODO: Write software to implement the attack on the system
+We have this part done, but the algorithm also shifts spaces, commas and etc. We need to refine the algorithm to only shift letters.
+The current implementation only does lowercase letters, we need to test/implement uppercase letters
+The current implementation also spits out all possible results. We can get an awesome grade if we implement smart grep, where we output only the correct answer
+
+## TODO: Estimate the work factor for your attack
+This should just be another paragraph in the report
+
+## TODO: Conduct computational experiments to verify your analysis
+We will need to write up a few workflows
+My understanding is plaintext -> encrypt -> ciphertext -> decrypt-> plaintext. 
+Our entire encryption system should be able to do this. 
+We should have a script that will do this workflow and output the result.
+
+## TODO: Ideally, you will provide a complete solution for your selected challenge problem
+This should be included in the report as a few paragraphs
+
+## TODO: Write a report that includes a detailed description and analysis of your work and results
+This part should be done last. Basically this is just refinement and add analysis to the report
 
 
 
