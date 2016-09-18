@@ -2,8 +2,17 @@
 A Simple Cipher Encryption Excercise
 
 # The Command to Get Answer
-ruby code/caesarCipher.rb "$(cat cipherTextOne.txt)" | grep "humpt"
+ruby code/cryptosystem.rb "hello my name is rishi"
 
+output:
+System has encoded Message:
+ hello my name is rishi
+Ciphertext:
+ uhmqyl byffi gs hugy cm lcmbc
+-------------------------------------------
+System has decoded message:
+ hello my name is rishi
+-------------------------------------------
 
 # This project has the Following tasks:
 ## TODO: Study your selected cryptosystem

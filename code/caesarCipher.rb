@@ -21,4 +21,4 @@ def caesar_cipher(string)
   return shiftyArray
 end
 
-puts caesar_cipher(ARGV[0])
+#puts caesar_cipher(ARGV[0])
